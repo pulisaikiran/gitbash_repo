@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "health insurance",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

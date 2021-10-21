@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c76b04e7c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_KuIumj76bMWXO4mSEgQKr");
+        })();
+    </script>
+</head>
+<body>
+    <div id="preloader"></div>
+    <header>
+        <a href="#" class="logo">
+            Insurance<i class="fas fa-house-user"></i>
+
+            <nav>
+                <ul>
+                    <li style="--i:1;"><a href="#">Home</a></li>
+                    <li style="--i:2;"><a href="index1.html">Careers</a></li>
+                    <li style="--i:3;"><a href="#">Services</a></li>
+                    <li style="--i:4;"><a href="#">Features</a></li>
+                    <li style="--i:5;"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+
+    </header>
+
+    <div class="container">
+        <div class="content  animate__animated  animate__backInDown">
+            <h2>Get Insurance Policy<br>And Save 30%</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut</p>
+            <br>
+            <input type="text" style="width: 160px; height: 42px;border-radius: 5px;background-color: #E8E8E8" placeholder="Type Your Address"><a href="#"><button>Get started</button></a>
+        </div>
+
+
+
+        <div class="col">
+
+            <div class="gallery-box">
+
+                <img src="pic2.jpg" id="gallery">
+
+                <ul>
+                    <li class="btn">01</li>
+                    <li class="btn active">02</li>
+                    <li class="btn">03</li>
+                    <li class="btn">04</li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+
+        <script>
+
+            var btn = document.getElementsByClassName("btn");
+            var gallery = document.getElementById("gallery");
+
+            var images = new Array(
+                "pic1.jpg",
+                "pic2.jpg",
+                "pic3.jpg",
+                "pic4.jpg");
+
+            for (let i = 0; i < btn.length; i++) {
+                btn[i].onclick = function () {
+                    gallery.src = images[i];
+
+                };
+            }
+
+        </script>
+
+        <div class="main">
+            <div class="box">
+                <img src="logo3333.png" width="50%;">
+            </div>
+            <div class="box">
+                <img src="logo43.png" width="50%;">
+            </div>
+            <div class="box">
+                <img src="logo554.png" width="50%;">
+            </div>
+            <div class="box">
+                <img src="logo63.jpg" align="right" width="70%;">
+            </div>
+        </div>
+    </div>
+
+    <!-- services section begins -->
+
+    <section class="services  animate__animated animate__backInLeft animate__delay-2s" id="services">
+        <div class="content1">
+            <h2>Choose Your Insurance</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Etiam semper diam at erat pulvinar,  </p>
+        </div>
+
+
+        <div class="box-container">
+            <div class="box1">
+                <i class="fas fa-house-user fa-3x"></i><br>
+                <h3>Home Insurance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Etiam semper diam at erat </p>
+            </div>
+
+            <div class="box1">
+                <i class="fas fa-child fa-3x"></i>
+                <h3>Life Insurance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat   </p>
+            </div>
+
+            <div class="box1">
+                <i class="fas fa-file-medical fa-3x"></i>
+                <h3>Health Insurance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat   </p>
+            </div>
+        </div>
+        <div class="box-container1">
+            <div class="box2">
+                <i class="fas fa-car fa-3x"></i>
+                <h3>Car Insurance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat </p>
+            </div>
+
+            <div class="box2">
+                <i class="fas fa-business-time fa-3x"></i>
+                <h3>Business Insurance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat  </p>
+            </div>
+
+            <div class="box2">
+                <i class="fas fa-bus fa-3x"></i>
+                <h3>Travel Insurance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="features animate__animated animate__zoomIn animate__delay-4s" id="features">
+        <div class="row">
+            <div class="image">
+                <img src="man.png" alt="">
+            </div>
+
+            <div class="content">
+                <h2>Make Easy your Life<br>With Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Etiam <br> diam at erat pulvinar Lorem ipsum dolor sit amet, consectetur<br> diam at erat pulvinar Lorem ipsum dolor sit amet, consectetur<br> Etiam semper diam at erat pulvinar Lorem ipsum dolor sit amet<br> elit.Etiam semper diam at erat pulvinar</p><br>
+                <a href="#"><button>Read More</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features1 animate__animated animate__zoomIn animate__delay-7s" id="features1">
+        <div class="row">
+            <div class="content">
+                <h2>We Take The Work Of Yours Hands</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> diam at erat pulvinar Lorem ipsum  </p>
+                <br>
+                <h3>Excellent Protection</h3><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> diam at erat pulvinar Lorem ipsum dolor </p><br>
+                <p><b><a href="default.asp" target="_blank">Learn More</a></b></p><br>
+                <h3>High Saving Potential</h3><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> diam at erat pulvinar Lorem ipsum dolor  </p><br>
+
+                <p><b><a href="default.asp" target="_blank">Learn More</a></b></p>
+                <br>
+
+                <a href="#"><button>View More</button></a>
+            </div>
+            <div class="image1">
+                <img src="image105.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials  animate__animated animate__backInLeft animate__delay-9s">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="customers-testimonials" class="owl-carousel">
+
+                        <!--TESTIMONIAL 1 -->
+                        <!--END OF TESTIMONIAL 1 -->
+                        <!--TESTIMONIAL 2 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="client2.png.png" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                                <h3>IAN OWEN</h3>
+                            </div>
+
+                        </div>
+                        <!--END OF TESTIMONIAL 2 -->
+                        <!--TESTIMONIAL 3 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="client3.png.png" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                                <h3>IAN OWEN</h3>
+                            </div>
+
+                        </div>
+                        <!--END OF TESTIMONIAL 3 -->
+                        <!--TESTIMONIAL 4 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="client1.png.png" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                                <h3>IAN OWEN</h3>
+                            </div>
+
+                        </div>
+                        <!--END OF TESTIMONIAL 4 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="client1.png.png" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                                <h3>IAN OWEN</h3>
+                            </div>
+
+                        </div>
+                        <!--TESTIMONIAL 5 -->
+                        <!--END OF TESTIMONIAL 5 -->
+                    </div>
+                </div>
+                <button class="prev-testimonial">Prev</button>
+                <button class="next-testimonial">Next</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- END OF TESTIMONIALS -->
+
+
+    <div class="slider">
+        <div class="slider-track">
+            <div class="slide">
+                <img src="logo333.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="logo55.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="logo333.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="logo55.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="logo333.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="logo55.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="logo333.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <section class="contact3">
+        <div class="content5">
+            <h2>Contact Us</h2>
+            <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+        </div>
+
+
+        <div class="container5">
+
+
+            <div class="contactinfo">
+                <div class="box5">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>4671 sugar camp road,<br>owatonna, hyderbad,<br>55560</p>
+                    </div>
+                </div>
+
+                <div class="box5">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>507-475-60941</p>
+                    </div>
+                </div>
+
+                <div class="box5">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>abc@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactform">
+                <form id="form" method="post" action="javascript:sendemail()">
+                    <h2>send message</h2>
+                    <div class="inputBox">
+                        <input type="text" id="toname" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" id="fromname" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea id="msg" required="required"></textarea>
+                        <span>Type your message</span>
+                    </div>
+                    <button onclick="sendMail()">Send Email</button>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
